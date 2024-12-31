@@ -1,78 +1,76 @@
-Voici la liste de chaque mot le plus rÃ©ccurent par annÃ©e
-1949 : {'human': 2, 'behaviour': 1, 'principle': 1, 'least': 1, 'effort': 1}
-1950 : {'human': 2, 'use': 1, 'beings': 1, 'cybernetics': 1, 'society': 1}
-1951 : {'computer': 9, 'digital': 5, 'electronic': 3, 'engineering': 3, 'machines': 2}
-1952 : {'computer': 15, 'digital': 8, 'use': 8, 'computers': 7, 'systems': 6}
-1953 : {'computer': 11, 'reliability': 8, 'computers': 8, 'processing': 6, 'experience': 6}
-1954 : {'digital': 12, 'control': 11, 'system': 11, 'computers': 9, 'computer': 8}
-1955 : {'computers': 10, 'computer': 10, 'digital': 6, 'electronic': 6, 'systems': 5}
-1956 : {'computer': 30, 'system': 16, 'digital': 11, 'design': 11, 'method': 9}
-1957 : {'system': 23, 'computer': 19, 'computers': 13, 'systems': 13, 'digital': 12}
-1958 : {'computer': 27, 'system': 21, 'design': 14, 'data': 13, 'computers': 12}
-1959 : {'computer': 32, 'system': 18, 'digital': 16, 'computers': 14, 'design': 12}
-1960 : {'computer': 25, 'system': 11, 'data': 10, 'digital': 7, 'design': 6}
-1961 : {'system': 30, 'computer': 21, 'simulation': 15, 'design': 13, 'data': 12}
-1962 : {'computer': 26, 'data': 26, 'processing': 24, 'ii': 21, 'information': 19}
-1963 : {'computer': 27, 'system': 21, 'memory': 10, 'digital': 9, 'simulation': 9}
-1964 : {'system': 36, 'computer': 32, 'systems': 13, 'program': 11, 'programming': 9}
-1965 : {'computer': 38, 'system': 24, 'computers': 19, 'processing': 18, 'information': 18}
-1966 : {'system': 47, 'computer': 29, 'data': 14, 'design': 12, 'hybrid': 12}
-1967 : {'computer': 54, 'system': 50, 'systems': 19, 'design': 18, 'data': 16}
-1968 : {'computer': 67, 'system': 62, 'data': 28, 'systems': 26, 'language': 19}
-1969 : {'system': 51, 'computer': 48, 'language': 16, 'design': 16, 'computers': 16}
-1970 : {'computer': 44, 'system': 32, 'systems': 20, 'design': 16, 'computers': 16}
-1971 : {'computer': 50, 'system': 43, 'information': 26, 'systems': 25, 'programming': 18}
-1972 : {'computer': 91, 'system': 68, 'systems': 44, 'information': 34, 'session': 27}
-1973 : {'computer': 56, 'system': 46, 'systems': 35, 'data': 26, 'design': 25}
-1974 : {'system': 59, 'data': 57, 'computer': 48, 'systems': 38, 'information': 31}
-1975 : {'computer': 54, 'system': 43, 'systems': 39, 'programming': 31, 'data': 28}
-1976 : {'system': 67, 'computer': 59, 'session': 57, 'data': 40, 'systems': 29}
-1977 : {'data': 56, 'computer': 50, 'system': 42, 'design': 27, 'systems': 26}
-1978 : {'computer': 87, 'data': 76, 'system': 56, 'abstract': 55, 'systems': 53}
-1979 : {'systems': 25, 'data': 24, 'computer': 22, 'system': 20, 'language': 17}
-1980 : {'computer': 52, 'system': 41, 'data': 37, 'systems': 34, 'language': 28}
-1981 : {'computer': 34, 'systems': 31, 'software': 28, 'system': 27, 'data': 20}
-1982 : {'systems': 42, 'system': 42, 'data': 41, 'ada': 34, 'language': 29}
-1983 : {'systems': 35, 'data': 31, 'system': 30, 'design': 29, 'computer': 25}
-1984 : {'system': 44, 'computer': 33, 'systems': 28, 'software': 27, 'design': 27}
-1985 : {'abstract': 103, 'system': 49, 'design': 48, 'systems': 44, 'database': 41}
-1986 : {'abstract': 124, 'systems': 75, 'system': 71, 'programming': 58, 'language': 57}
-1987 : {'abstract': 116, 'system': 47, 'systems': 44, 'computer': 35, 'language': 34}
-1988 : {'system': 59, 'systems': 55, 'computer': 37, 'programming': 36, 'design': 34}
-1989 : {'systems': 57, 'system': 47, 'computer': 38, 'programming': 36, 'design': 29}
-1990 : {'systems': 95, 'system': 87, 'abstract': 75, 'design': 54, 'computer': 53}
-1991 : {'systems': 85, 'system': 61, 'using': 60, 'abstract': 54, 'knowledge': 53}
-1992 : {'systems': 133, 'design': 62, 'system': 55, 'using': 54, 'approach': 54}
-1993 : {'systems': 124, 'system': 70, 'design': 64, 'using': 63, 'programming': 62}
-1994 : {'systems': 121, 'data': 65, 'system': 65, 'programming': 62, 'using': 61}
-1995 : {'systems': 105, 'design': 70, 'programming': 66, 'system': 64, 'using': 60}
-1996 : {'systems': 130, 'information': 79, 'programming': 73, 'parallel': 69, 'using': 66}
-1997 : {'systems': 101, 'design': 98, 'using': 91, 'system': 88, 'agents': 66}
-1998 : {'using': 148, 'systems': 113, 'learning': 104, 'information': 99, 'system': 71}
-1999 : {'systems': 112, 'using': 107, 'system': 97, 'data': 73, 'information': 59}
-2000 : {'using': 140, 'systems': 124, 'design': 112, 'system': 92, 'data': 89}
-2001 : {'systems': 136, 'using': 130, 'system': 83, 'learning': 80, 'information': 74}
-2002 : {'using': 172, 'systems': 135, 'data': 107, 'design': 103, 'information': 98}
-2003 : {'systems': 172, 'using': 147, 'data': 135, 'information': 117, 'analysis': 105}
-2004 : {'using': 230, 'systems': 152, 'networks': 147, 'system': 141, 'information': 136}
-2005 : {'using': 412, 'systems': 360, 'data': 339, 'networks': 281, 'learning': 277}
-2006 : {'using': 551, 'systems': 334, 'based': 307, 'web': 256, 'networks': 255}
-2007 : {'using': 578, 'systems': 553, 'control': 522, 'based': 314, 'system': 299}
-2008 : {'using': 414, 'networks': 337, 'based': 284, 'systems': 273, 'data': 227}
-2009 : {'using': 491, 'systems': 331, 'based': 319, 'networks': 318, 'learning': 298}
-2010 : {'using': 527, 'based': 364, 'data': 328, 'networks': 319, 'systems': 299}
-2011 : {'using': 650, 'based': 508, 'networks': 405, 'learning': 385, 'analysis': 366}
-2012 : {'using': 549, 'based': 403, 'data': 327, 'systems': 303, 'learning': 284}
-2013 : {'using': 609, 'based': 427, 'data': 402, 'learning': 382, 'analysis': 338}
-2014 : {'using': 581, 'based': 399, 'data': 396, 'systems': 347, 'learning': 343}
-2015 : {'using': 632, 'based': 458, 'data': 448, 'learning': 440, 'system': 349}
-2016 : {'using': 649, 'learning': 492, 'data': 471, 'based': 411, 'analysis': 364}
-2017 : {'using': 753, 'learning': 642, 'based': 538, 'data': 520, 'analysis': 486}
-2018 : {'learning': 832, 'using': 693, 'based': 534, 'data': 469, 'networks': 467}
-2019 : {'learning': 1113, 'based': 975, 'using': 953, 'data': 711, 'design': 568}
-2020 : {'learning': 1214, 'using': 772, 'based': 715, 'data': 536, 'network': 502}
-2021 : {'learning': 1456, 'based': 1038, 'using': 855, 'design': 626, 'data': 613}
-2022 : {'learning': 1337, 'based': 872, 'using': 696, 'data': 649, 'detection': 512}
-2023 : {'learning': 1662, 'based': 908, 'using': 770, 'language': 645, 'models': 628}
-2024 : {'learning': 1258, 'language': 956, 'models': 908, 'large': 624, 'via': 465}
-2025 : {'artificial': 1, 'intelligence': 1, 'infrared': 1, 'images': 1, 'medical': 1}
+Voici la liste de chaque mot le plus réccurent par année
+1949 : {'human': 2, 'behaviour': 1, 'principle': 1}
+1950 : {'human': 2, 'use': 1, 'beings': 1}
+1951 : {'programmgesteuerte': 1, 'digitale': 1, 'elektronische': 1}
+1953 : {'sampling': 1, 'techniques': 1}
+1954 : {'analog': 1, 'methods': 1, 'computation': 1}
+1955 : {'computers': 2, 'arithmetic': 1, 'operations': 1}
+1956 : {'computers': 3, 'analog': 3, 'operation': 1}
+1957 : {'management': 1, 'guide': 1, 'electronic': 1}
+1958 : {'computability': 1, 'unsolvability': 1, 'logical': 1}
+1959 : {'analog': 1, 'methods': 1, 'computation': 1}
+1960 : {'design': 2, 'elektronische': 1, 'analogrechner': 1}
+1961 : {'mathematical': 1, 'programming': 1}
+1962 : {'methodology': 1, 'systems': 1, 'engineering': 1}
+1963 : {'digital': 1, 'computer': 1, 'design': 1}
+1964 : {'electronic': 1, 'digital': 1, 'integrating': 1}
+1965 : {'active': 1, 'network': 1, 'synthesis': 1}
+1966 : {'etude': 2, 'certains': 2, 'notion': 1}
+1967 : {'programming': 2, 'contribution': 2, 'language': 1}
+1968 : {'theory': 3, 'algebraic': 2, 'contribution': 2}
+1969 : {'programming': 2, 'language': 2, 'languages': 2}
+1970 : {'syntaxique': 2, 'programming': 2, 'automatique': 2}
+1971 : {'contribution': 4, 'theorie': 2, 'application': 2}
+1972 : {'computer': 10, 'statistical': 8, 'discussion': 8}
+1973 : {'programming': 3, 'theory': 3, 'art': 2}
+1974 : {'languages': 4, 'memory': 4, 'schemes': 3}
+1975 : {'programming': 6, 'systems': 4, 'edition': 4}
+1976 : {'compiler': 5, 'language': 4, 'grammars': 4}
+1977 : {'edition': 3, 'analysis': 3, 'quelques': 3}
+1978 : {'systems': 7, 'data': 4, 'operating': 4}
+1979 : {'theory': 11, 'nets': 7, 'net': 6}
+1980 : {'systems': 21, 'language': 11, 'system': 11}
+1981 : {'systems': 10, 'programming': 8, 'computer': 7}
+1982 : {'recognition': 15, 'system': 12, 'systems': 11}
+1983 : {'design': 22, 'system': 13, 'data': 12}
+1984 : {'prolog': 17, 'programming': 16, 'system': 13}
+1985 : {'database': 24, 'design': 24, 'systems': 12}
+1986 : {'systems': 57, 'system': 42, 'programming': 37}
+1987 : {'reasoning': 28, 'systems': 26, 'theory': 22}
+1988 : {'systems': 30, 'theory': 26, 'computer': 25}
+1989 : {'systems': 33, 'programming': 25, 'introduction': 23}
+1990 : {'systems': 52, 'programming': 42, 'design': 38}
+1991 : {'systems': 54, 'knowledge': 34, 'data': 33}
+1992 : {'systems': 101, 'design': 53, 'algorithms': 46}
+1993 : {'systems': 103, 'control': 58, 'analysis': 52}
+1994 : {'systems': 84, 'programming': 50, 'design': 47}
+1995 : {'systems': 69, 'design': 45, 'system': 41}
+1996 : {'systems': 94, 'information': 56, 'data': 49}
+1997 : {'systems': 68, 'design': 56, 'using': 45}
+1998 : {'using': 86, 'systems': 71, 'learning': 68}
+1999 : {'systems': 56, 'using': 53, 'programming': 47}
+2000 : {'using': 58, 'data': 48, 'systems': 48}
+2001 : {'systems': 77, 'using': 51, 'applications': 48}
+2002 : {'using': 84, 'systems': 81, 'data': 63}
+2003 : {'systems': 102, 'data': 81, 'information': 79}
+2004 : {'using': 82, 'systems': 79, 'information': 72}
+2005 : {'systems': 257, 'data': 200, 'using': 196}
+2006 : {'using': 268, 'systems': 129, 'web': 127}
+2007 : {'control': 461, 'systems': 431, 'using': 338}
+2008 : {'using': 144, 'systems': 119, 'learning': 119}
+2009 : {'using': 221, 'systems': 199, 'data': 161}
+2010 : {'using': 290, 'data': 192, 'systems': 189}
+2011 : {'using': 309, 'systems': 200, 'learning': 200}
+2012 : {'using': 316, 'based': 214, 'data': 192}
+2013 : {'using': 213, 'data': 182, 'systems': 158}
+2014 : {'using': 254, 'systems': 217, 'data': 213}
+2015 : {'data': 259, 'using': 234, 'learning': 209}
+2016 : {'using': 318, 'learning': 309, 'data': 246}
+2017 : {'learning': 351, 'using': 271, 'data': 237}
+2018 : {'learning': 489, 'using': 289, 'data': 234}
+2019 : {'learning': 545, 'using': 330, 'data': 315}
+2020 : {'learning': 695, 'network': 315, 'using': 306}
+2021 : {'learning': 740, 'using': 303, 'neural': 283}
+2022 : {'learning': 710, 'data': 334, 'using': 279}
+2023 : {'learning': 775, 'using': 233, 'based': 228}
+2024 : {'learning': 859, 'models': 327, 'via': 302}

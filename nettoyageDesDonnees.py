@@ -3,10 +3,10 @@ import pandas as pd
 import re
 from nltk.corpus import stopwords
 
-data_path = "/home/kylian/Documents/S5/SAE/IndexationsKeywords/data/master_dbo_dblp2_2.csv"
+data_path = "./data/master_dbo_dblp2.csv"
 
 # Chargement complet
-data = pd.read_csv(data_path)
+#data = pd.read_csv(data_path)
 
 # Chargement limité
 data = pd.read_csv(data_path,nrows=100000,header=None)
@@ -53,5 +53,5 @@ df = pd.DataFrame(titres_annees, columns=['Title','Year'])
 df['Title'] = df['Title'].apply(remove_stopwords)
 
 # Sauvegarde dans un nouveau fichier CSV
-output_path = "/home/kylian/Documents/S5/SAE/IndexationsKeywords/data/cleaned_data.csv"
+output_path = "./data/cleaned_data.csv"
 df.to_csv(output_path, index=False)
